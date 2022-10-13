@@ -49,11 +49,12 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++)
 		default:
 			console.log("PRESS SOME VALID KEY");
 	}
+	}
 	setTimeout(function()
 {
 	document.querySelector("."+ele).classList.remove("pressed");
 },200);
-};
+
 
 
 
